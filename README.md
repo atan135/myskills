@@ -16,6 +16,12 @@
 
 位置：`dev-checklist/`
 
+### multi-agent-dev
+
+多 agent 开发编排流程。用于主 agent 基于用户提供的 checklist/summary 文件调度 subagent 按阶段或子任务连续开发、逐项审核打勾并附证明、运行测试、打回修复，并使用 `mygit-skill` 提交代码改动。
+
+位置：`multi-agent-dev/`
+
 ## Skill 结构
 
 每个 skill 目录至少包含：
