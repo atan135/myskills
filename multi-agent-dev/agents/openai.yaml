@@ -1,4 +1,4 @@
 interface:
   display_name: "Multi Agent Dev"
-  short_description: "主 agent 编排 subagent 按 checklist 开发"
-  default_prompt: "使用 $multi-agent-dev 按用户提供的 checklist 调度 subagent 连续完成开发、审核、打勾证明和提交。"
+  short_description: "先给执行方案，确认后编排 subagent 开发"
+  default_prompt: "使用 $multi-agent-dev 基于用户提供的提示词和 checklist 先返回执行方案，等待确认后再调度 subagent 完成开发、审核、打勾证明和提交。"
