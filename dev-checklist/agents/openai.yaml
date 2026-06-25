@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dev Checklist"
+  short_description: "生成和维护阶段式开发 checklist 文档"
+  default_prompt: "使用 $dev-checklist 为开发需求生成阶段式 checklist，并写入用户提供路径下的中文文件名_checklist.md。"
