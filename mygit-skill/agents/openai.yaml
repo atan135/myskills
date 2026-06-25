@@ -1,0 +1,4 @@
+interface:
+  display_name: "MyGit Skill"
+  short_description: "通用 Git 提交流程和提交信息规范"
+  default_prompt: "使用 $mygit-skill 整理 Git 改动、选择提交拆分、运行提交前检查并起草提交信息。"
