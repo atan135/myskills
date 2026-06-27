@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Optimize"
+  short_description: "按功能模块诊断代码坏味道并生成分步重构路线图建议报告"
+  default_prompt: "使用 $code-optimize 按功能模块为主、Git 提交记录为辅，对指定代码或模块做体检并生成分步优化路线图。"
