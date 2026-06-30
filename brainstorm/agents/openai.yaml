@@ -1,4 +1,4 @@
 interface:
   display_name: "Brainstorm"
-  short_description: "确认目标限定范围检验后只做头脑风暴"
-  default_prompt: "使用 $brainstorm 先补齐目标、限定、范围、检验并确认后，只做头脑风暴和方案设计，不执行实现。"
+  short_description: "仅显式要求时启动头脑风暴流程"
+  default_prompt: "使用 $brainstorm 启动显式头脑风暴流程：先补齐目标、限定、范围、检验并确认后，只做头脑风暴和方案设计，不执行实现。"
